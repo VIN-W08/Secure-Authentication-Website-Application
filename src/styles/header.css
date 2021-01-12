@@ -1,0 +1,30 @@
+#header-container{
+    background-color: rgb(63, 90, 180);
+    height: 75px;
+    font-family: Arial;
+}
+
+#app-name{
+    color: rgb(209, 224, 253);   
+    text-align: center;
+    line-height: 75px;
+}
+
+#nav{
+    display: flex;
+    text-align: center;
+    background-color: rgb(63, 90, 180);
+    margin-top: -21px;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+#nav-login, #nav-signUp{ 
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav-login:hover, #nav-signUp:hover{
+    color:black; 
+}

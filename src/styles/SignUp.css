@@ -1,0 +1,130 @@
+/* .signUp-container{
+    text-align: center;
+    font-family: Arial;
+}
+
+.signUp-form{
+    border: 2px rgb(231, 231, 231) solid;
+    border-radius: 30px;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px;
+}
+
+label{
+    float: left;
+    position: relative;
+    left: 35px;
+    font-size: 16px;
+}
+
+#username, #password, #password-confirmation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 20px;
+}
+
+#btn-signUp{
+    border: none;
+    outline: none;
+    background-color: rgb(46, 79, 185);
+    color: white;
+    width: 85px;
+    height: 30px;
+} */
+
+/* .signUp-container{
+    text-align: center;
+    font-family: Arial;
+    border: 2px blue solid;
+}
+
+.signUp-form{
+    border: 2px rgb(231, 231, 231) solid;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+    padding: 30px;
+}
+
+label{
+    float: left;
+    position: relative;
+    left: 35px;
+    font-size: 16px;
+}
+
+#username, #password, #password-confirmation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 20px;
+}
+
+#btn-sigUp{
+    border: none;
+    outline: none;
+    background-color: rgb(46, 79, 185);
+    color: white;
+    width: 85px;
+    height: 30px;
+} */
+
+.signUp-container{
+    text-align: center;
+    font-family: Arial;
+}
+
+.signUp-form{
+    border: 2px rgb(231, 231, 231) solid;
+    border-radius: 30px;
+    width: 30%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.signUp-form label{
+    display: flex;
+    position: relative;
+    left: 35px;
+}
+
+.signUp-form #username, #password, #email{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 40px;
+}
+
+#already-have-an-account{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.signUp-form #btn-signUp{
+    display: block;
+    border: none;
+    outline: none;
+    background-color: rgb(46, 79, 185);
+    color: white;
+    width: 75px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}

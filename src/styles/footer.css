@@ -1,0 +1,18 @@
+#footer-container{
+    /* position: fixed;
+    bottom: 0;
+    background-color: rgb(63, 90, 180);
+    height: 50px;
+    width: 98.8%; */
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(63, 90, 180);
+    height: 60px;
+    width: 98.8%;
+    margin-top: 60px;
+}
+
+#footer-container h4{
+    text-align: center;
+    color: rgb(209, 224, 253); 
+}
