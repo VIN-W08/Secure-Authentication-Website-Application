@@ -34,7 +34,7 @@ function Login(){
             <form onSubmit={onSubmit} className="login-form">
                 <h2>Login</h2>
                 <label htmlFor="email" value={email}>Email</label>
-                <input onChange={onChangeInput} type="text" id="email" name="email" value={email}/>
+                <input onChange={onChangeInput} type="email" id="email" name="email" value={email}/>
                 <label htmlFor="password">Password</label>
                 <input onChange={onChangeInput} type="password" id="password" name="password" value={password}/>
                 <button type="submit" id="btn-login">Login</button>

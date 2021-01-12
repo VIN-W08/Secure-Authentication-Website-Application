@@ -18,17 +18,22 @@ router.post("/sign-up",(req, res)=>{
 router.post("/login", (req, res)=>{
     const found = Member.find({
         email: req.body.email
-
+ 
     }, (error, res)=>{ 
-        bcryptjs.compare(req.body.password, res[0].password, (error, res)=>{
-            if(res == true){
-                console.log("Registered");
-            }  
-            else{ 
-                console.log("Not Registered");
-            }
-        });
+        try{
+            bcryptjs.compare(req.body.password, res[0].password, (error, res)=>{
+                if(res == true){
+                    console.log("Wrong Password");
+                }  
+                else{ 
+                    console.log("Wrong Password");
+                } 
+            });
+        }catch(error){
+            console.log("Not Registered"); 
+        }
     })
+
 }) 
   
 module.exports = router; 
