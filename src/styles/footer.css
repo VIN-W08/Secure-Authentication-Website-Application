@@ -13,6 +13,8 @@
 }
 
 #footer-container h4{
+    position: relative;
+    top: 20px;
     text-align: center;
     color: rgb(209, 224, 253); 
 }

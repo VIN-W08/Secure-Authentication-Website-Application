@@ -4,7 +4,7 @@ import "../styles/footer.css"
 function Footer(){
     return(
         <div id="footer-container">
-            <h4>chatter &#169;</h4>
+            <h4>Secure Auth App &#169;</h4>
         </div>
     )
 }

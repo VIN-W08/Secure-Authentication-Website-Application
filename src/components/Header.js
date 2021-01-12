@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 function Header(){
     return(
         <div id="header-container">
-            <h1 id="app-name">chatter</h1>
+            <h1 id="app-name">Secure Auth App</h1>
             <div id="nav">
                 <Link to="/login" id="nav-login">Login</Link>
                 <Link to="/sign-up" id="nav-signUp">Sign Up</Link>
