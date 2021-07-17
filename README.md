@@ -9,7 +9,7 @@ The features provided in this application are:
 - Store user data into MongoDB Database
 - Query user data from MongoDB Database
 
-## --------------------------------------------------------------------------------------------------------
+## --------------------------------------------------------------------------------------
                                                                                              
 
 # Getting Started with Create React App
