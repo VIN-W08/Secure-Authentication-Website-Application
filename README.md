@@ -1,3 +1,16 @@
+# Secure Authentication Website Application
+Secure Authentication Website Application is a website application that applies password encryption and decryption on both sign up and login process to ensure the safety of user's password.
+
+## Features
+The features provided in this application are:
+- Sign Up
+- Login
+- Password Encryption and Decryption
+- Store user data into MongoDB Database
+- Query user data from MongoDB Database
+
+## -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
